@@ -1,0 +1,11 @@
+listaexer8 = []
+listaexer8.append("RTX 2080Ti")
+listaexer8.append("Gabinete Cooler Master")
+listaexer8.append("Processador Intel Core I9 10900x")
+listaexer8.append("Placa Mãe MSI (Socket AM4) USB-C Gen2 AMD - MEG X570 ACE")
+listaexer8.append("HD Seagate Ironwolf, 16TB, 3.5´, SATA - ST16000VN001")
+listaexer8.append("WATER COOLER NZXT KRAKEN Z73 360MM DISPLAY LCD, RL-KRZ73-01")
+
+listaexer8.remove("RTX 2080Ti")
+listaexer8.remove("Gabinete Cooler Master")
+print(listaexer8)
