@@ -1,0 +1,23 @@
+numeros = []
+grande = pequeno = meio = 0
+for i in range(0, 5):
+    num = int(input("Digite um número: "))
+    if i == 0:
+        grande = pequeno = num
+        numeros.append(num)
+    elif num >= grande:
+        grande = num
+        numeros.append(num)
+    elif num <= pequeno:
+        pequeno = num
+        numeros.insert(0, num)
+    elif pequeno < num < grande:
+        if meio == 0:
+            meio = num
+            numeros.insert(pequeno < num < grande, num)
+        elif meio <= num:
+            numeros.insert(meio < num < grande, num)
+            meio = num
+        elif meio >= num:
+            numeros.insert(pequeno < num < meio, num)
+print(numeros)
