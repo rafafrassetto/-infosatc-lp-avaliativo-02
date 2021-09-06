@@ -1,0 +1,13 @@
+filme1   = input('Digite o nome de um filme  : ')
+filme2   = input('Digite o nome de outro filme : ')
+filme3   = input('Digite o nome de outro filme : ')
+
+
+jogo1   = input('Digite o nome de um jogo  : ')
+jogo2   = input('Digite o nome de outro jogo : ')
+jogo3   = input('Digite o nome de outro jogo : ')
+
+livro1   = input('Digite o nome de um livro  : ')
+livro2   = input('Digite o nome de outro livro : ')
+livro3   = input('Digite o nome de outro livro : ')
+
