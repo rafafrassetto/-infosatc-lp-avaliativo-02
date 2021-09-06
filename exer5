@@ -1,0 +1,16 @@
+lista = [['robson', 'elemento x', '2'], ['paulo', '8', '1']]
+print(lista)
+
+procurar = input("Digite o que voce procura: ")
+
+for a in lista:
+    onde = lista.index(a)
+ for b in a:
+
+if b == procurar:
+
+    onde2 = lista[onde].index(b)
+print("o que você procura está na posição: lista[{}][{}]".format(onde,onde2))
+break
+
+print("o que você procura:",lista[onde][onde2])
